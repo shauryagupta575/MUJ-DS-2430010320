@@ -1,0 +1,5 @@
+experiment,se_block,focal_loss,accuracy,precision,recall,macro_f1,auc
+Baseline,no,no,0.76,0.7584,1.0,0.4576,0.9749
+SE only,yes,no,0.9267,0.9322,0.9735,0.8965,0.9742
+Focal only,no,yes,0.8467,0.8409,0.9823,0.744,0.9223
+SE + Focal (proposed),yes,yes,0.8867,0.8692,1.0,0.8159,0.9261

@@ -1,0 +1,7 @@
+model,train_acc_pct,test_acc_pct,bias_pct,variance_pct
+A: Underfit CNN,71.24,67.33,28.76,3.91
+B: Overfit CNN,98.14,93.33,1.86,4.81
+C: Regularised CNN,92.13,87.33,7.87,4.8
+L1,95.99,95.33,4.01,0.66
+L2,99.0,95.33,1.0,3.67
+D: ViT-B/16,99.71,99.33,0.29,0.38

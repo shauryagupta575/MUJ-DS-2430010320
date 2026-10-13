@@ -1,0 +1,8 @@
+# Versions used in the recorded Colab run (T4 GPU)
+tensorflow==2.21.0
+keras-hub==0.32.0
+kagglehub
+scikit-learn
+pandas
+numpy
+matplotlib

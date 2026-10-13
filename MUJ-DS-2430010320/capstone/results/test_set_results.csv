@@ -1,0 +1,9 @@
+model,accuracy,precision_fire,recall_fire,f1_fire,macro_f1,missed_fires_FN,false_alarms_FP,params
+ViT-B/16 (frozen -> last 4 blocks fine-tuned),0.9933,1.0,0.9912,0.9956,0.9911,1,0,85897217
+ResNet50 (frozen),0.9933,1.0,0.9912,0.9956,0.9911,1,0,
+MobileNetV2 (frozen),0.9733,1.0,0.9646,0.982,0.9653,4,0,2422081
+L1 CNN (lambda=1e-4),0.9533,0.9818,0.9558,0.9686,0.9389,5,2,258881
+L2 CNN (lambda=1e-4),0.9533,0.9818,0.9558,0.9686,0.9389,5,2,258881
+"Model B: CNN, no regularisation",0.9333,0.9905,0.9204,0.9541,0.9161,9,1,9679041
+Model C: regularised CNN,0.8733,0.97,0.8584,0.9108,0.8462,16,3,258881
+Model A: underfit CNN,0.6733,1.0,0.566,,,,,233
